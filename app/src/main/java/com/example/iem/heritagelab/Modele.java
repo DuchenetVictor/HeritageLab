@@ -5,17 +5,19 @@ package com.example.iem.heritagelab;
  */
 
 public  class Modele {
-    public String nom;
-    public Type type;
 
-    public Modele(Type type, String nom) {
-        this.type = type;
+    public  Vehicule vehicule;
+    public String nom;
+
+
+    public Modele(Vehicule vehicule, String nom) {
+        this.vehicule = vehicule;
         this.nom = nom;
     }
-    public Type getType() {
-        return type;
+    public Vehicule getVehicule() {
+        return vehicule;
     }
-    
+
     public String getNom() {
         return nom;
     }
@@ -24,11 +26,8 @@ public  class Modele {
         this.nom = nom;
     }
 
-    public void setType(Type type) {
-        this.type = type;
+    public void setVehicule(Vehicule vehicule) {
+        this.vehicule = vehicule;
     }
-
-
-
 
 }
