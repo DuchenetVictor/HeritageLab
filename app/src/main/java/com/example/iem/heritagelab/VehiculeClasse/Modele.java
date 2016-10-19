@@ -1,4 +1,6 @@
-package com.example.iem.heritagelab;
+package com.example.iem.heritagelab.VehiculeClasse;
+
+import com.example.iem.heritagelab.Vehicule;
 
 /**
  * Created by iem on 19/10/2016.
@@ -6,7 +8,7 @@ package com.example.iem.heritagelab;
 
 public  class Modele {
 
-    public  Vehicule vehicule;
+    public Vehicule vehicule;
     public String nom;
 
 

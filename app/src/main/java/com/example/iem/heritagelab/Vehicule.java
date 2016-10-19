@@ -6,5 +6,9 @@ package com.example.iem.heritagelab;
 
 public abstract class Vehicule {
 
+    protected String nom;
+    protected int nbRoues;
+    protected double poid;
+
 
 }
