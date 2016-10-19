@@ -8,9 +8,22 @@ import com.example.iem.heritagelab.Vehicule;
 
 public class fourgon extends Vehicule {
 
-    public fourgon(String nom, int nbRoues, double poid) {
-        this.nom = nom;
+    private double chargeMax;
+
+    public fourgon(String nom, int nbRoues, double poid,double chargeMax) {
+        /*this.nom = nom;
         this.nbRoues = nbRoues;
-        this.poid = poid;
+        this.poid = poid;*/
+        super(nom,nbRoues,poid);
+        this.chargeMax= chargeMax;
+
+    }
+
+    public Double getChargeMax() {
+        return chargeMax;
+    }
+
+    public void setChargeMax(double chargeMax) {
+        this.chargeMax = chargeMax;
     }
 }

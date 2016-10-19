@@ -8,9 +8,19 @@ import com.example.iem.heritagelab.Vehicule;
 
 public class Voiture extends Vehicule {
 
-    public Voiture(String nom, int nbRoues, double poid) {
-        this.nom = nom;
-        this.nbRoues = nbRoues;
-        this.poid = poid;
+    private int placeMax;
+
+    public Voiture(String nom, int nbRoues, double poid, int placeMax) {
+        super(nom,nbRoues,poid);
+        this.placeMax = placeMax;
+
+    }
+
+    public int getPlaceMax() {
+        return placeMax;
+    }
+
+    public void setPlaceMax(int placeMax) {
+        this.placeMax = placeMax;
     }
 }

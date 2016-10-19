@@ -1,4 +1,4 @@
-package com.example.iem.heritagelab.VehiculeClasse;
+package com.example.iem.heritagelab;
 
 import com.example.iem.heritagelab.Vehicule;
 

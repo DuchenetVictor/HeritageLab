@@ -8,10 +8,18 @@ import com.example.iem.heritagelab.Vehicule;
 
 public class moto extends Vehicule {
 
+    private int centimetreCube;
 
-    public moto(String nom, int nbRoues, double poid) {
-        this.nom = nom;
-        this.nbRoues = nbRoues;
-        this.poid = poid;
+    public moto(String nom, int nbRoues, double poid, int centimetreCube) {
+        super(nom, nbRoues, poid);
+        this.centimetreCube = centimetreCube;
+        }
+
+    public int getCentimetreCube() {
+        return centimetreCube;
+    }
+
+    public void setCentimetreCube(int centimetreCube) {
+        this.centimetreCube = centimetreCube;
     }
 }

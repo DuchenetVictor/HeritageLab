@@ -1,7 +1,5 @@
 package com.example.iem.heritagelab;
 
-import com.example.iem.heritagelab.VehiculeClasse.Modele;
-
 import java.util.List;
 
 /**
